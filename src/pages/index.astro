@@ -68,26 +68,26 @@ type ExperienceItem = {
 // Customize your experience here
 const experience: ExperienceItem[] = [
   {
-    role: 'Your Current Role',
-    company: 'Current Company',
-    period: '2022 - Present',
+    role: '智能家居工程师',
+    company: '小米',
+    period: '2025 - 至今',
     current: true,
     icon: 'lucide:briefcase',
-    key: 'Brief description of your current role and key achievements • Add more details about your responsibilities and accomplishments'
+    key: '智能家居设计 安装 调试'
   },
   {
-    role: 'Previous Role',
-    company: 'Previous Company',
-    period: '2020 - 2022',
+    role: 'Aqara工程师',
+    company: 'Aqara智能家居',
+    period: '2025',
     icon: 'lucide:server',
-    key: 'Description of your previous role and achievements • Highlight key projects or responsibilities you had in this position'
+    key: '智能家居设计 安装 调试'
   },
   {
-    role: 'Earlier Role',
-    company: 'Earlier Company',
-    period: '2018 - 2020',
+    role: '学生',
+    company: '山东某大学',
+    period: '2022-2025',
     icon: 'lucide:code',
-    key: 'Description of your earlier role and achievements • Show your career progression and growth over time'
+    key: 'IOT STM32 Homeassistant'
   },
 ]
 ---
@@ -123,11 +123,11 @@ const experience: ExperienceItem[] = [
           <!-- CTA Buttons -->
           <div class="flex flex-wrap items-center gap-3 pt-2">
             <Link href="/blog" class={buttonVariants({ variant: 'default', size: 'lg' })}>
-              Read the blog
+              开始
               <Icon name="lucide:arrow-right" class="size-4" />
             </Link>
             <Link href="/about" class={buttonVariants({ variant: 'outline', size: 'lg' })}>
-              About me
+              关于
             </Link>
           </div>
           
@@ -163,9 +163,9 @@ const experience: ExperienceItem[] = [
   <!-- Experience Timeline -->
   <section class="mt-8">
     <div class="mb-6">
-      <h2 class="text-2xl font-semibold mb-2">Experience</h2>
+      <h2 class="text-2xl font-semibold mb-2">经历</h2>
       <p class="text-sm text-muted-foreground">
-        Professional journey and achievements
+        职业历程与成就
       </p>
     </div>
     
@@ -203,9 +203,9 @@ const experience: ExperienceItem[] = [
   <!-- Skills & Technologies (Optional) -->
   <section class="mt-12">
     <div class="mb-6">
-      <h2 class="text-2xl font-semibold mb-2">Skills & Technologies</h2>
+      <h2 class="text-2xl font-semibold mb-2">技能与技术</h2>
       <p class="text-sm text-muted-foreground">
-        Technologies and tools I work with
+        掌握的技能和工具
       </p>
     </div>
     <ErrorBoundary client:load transition:persist="skills-error-boundary">
@@ -218,7 +218,7 @@ const experience: ExperienceItem[] = [
     <section class="mt-12">
       <div class="mb-6 flex items-center justify-between">
         <div>
-          <h2 class="text-2xl font-semibold mb-2">Latest from the blog</h2>
+          <h2 class="text-2xl font-semibold mb-2">最新文章</h2>
           <p class="text-sm text-muted-foreground">Recent insights and articles</p>
         </div>
         <Link 
@@ -256,7 +256,7 @@ const experience: ExperienceItem[] = [
                 <Icon name="lucide:arrow-right" class="size-4 text-primary/70 group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0" aria-hidden="true" />
               </div>
               <p class="text-xs text-muted-foreground mt-0.5">
-                Explore all articles and tutorials
+                探索所有文章和教程
               </p>
             </div>
           </div>
@@ -286,11 +286,11 @@ const experience: ExperienceItem[] = [
       <div class="text-center space-y-6">
         <div class="space-y-2">
           <h2 class="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-foreground leading-tight">
-            Let's connect
+           互联万物，掌控生活节奏！
           </h2>
         </div>
         <p class="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl mx-auto">
-          Have questions or want to collaborate? Feel free to reach out!
+          真正让智能家居走进生活，让家更懂你！
         </p>
         <div class="pt-4">
           {SOCIAL_LINKS.find(link => link.label === 'Email') && (
@@ -299,7 +299,7 @@ const experience: ExperienceItem[] = [
               class="group inline-flex items-center gap-2.5 px-7 py-3.5 rounded-lg bg-foreground text-background text-base font-medium hover:bg-foreground/90 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
               <Icon name="lucide:mail" class="size-4" />
-              <span>Get in touch</span>
+              <span>联系我</span>
               <Icon name="lucide:arrow-right" class="size-4 transition-transform group-hover:translate-x-1" />
             </Link>
           )}
