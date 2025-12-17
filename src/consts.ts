@@ -1,12 +1,12 @@
 import type { IconMap, SocialLink, Site } from '@/types'
 
 export const SITE: Site = {
-  title: 'Your Blog Name',
+  title: 'CLING-IOT',
   description:
-    'A brief description of your blog. This will be used in meta tags and social sharing.',
-  href: 'https://yourdomain.com',
-  author: 'your-author-id',
-  locale: 'en-US',
+    '专心钻研智能家居物联网技术的小白',
+  href: 'https://www.clingiot.cn',
+  author: '子川',
+  locale: 'zh-CN',
   featuredPostCount: 2,
   postsPerPage: 6,
 }
@@ -54,7 +54,7 @@ export const NAV_LINKS: SocialLink[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: 'https://github.com/username',
+    href: 'https://github.com/clingwl',
     label: 'GitHub',
   },
   {
@@ -62,7 +62,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'Twitter',
   },
   {
-    href: 'mailto:your@email.com',
+    href: 'admin@clingiot.cn',
     label: 'Email',
   },
   {
@@ -82,7 +82,7 @@ export const ICON_MAP: IconMap = {
 
 // Newsletter consent text (centralized for GDPR compliance)
 export const NEWSLETTER_CONSENT_TEXT = {
-  text: 'I agree to receive newsletter emails.',
+  text: '我同意订阅邮件',
   privacyLink: '/privacy',
   privacyText: 'Privacy Policy',
 }
